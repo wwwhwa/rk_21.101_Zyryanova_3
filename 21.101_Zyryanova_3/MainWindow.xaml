@@ -1,0 +1,20 @@
+﻿<Window x:Class="_21._101_Zyryanova_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_21._101_Zyryanova_3"
+        mc:Ignorable="d"
+        Title="Zyryanova Variant 3" Height="288" Width="424">
+    <Grid Margin="0,0,0,3">
+        <Label Content="Зырянова // Вариант 3" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="tb_input_n" HorizontalAlignment="Left" Margin="10,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="click" HorizontalAlignment="Left" Margin="270,134,0,0" VerticalAlignment="Top" Width="64" Click="btn_click"/>
+        <Label Content="Введи длину массива" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_input_a" HorizontalAlignment="Left" Margin="10,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="192"/>
+        <Label Content="Введи нижнюю границу массива" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_input_b" HorizontalAlignment="Left" Margin="10,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="192"/>
+        <Label Content="Введи верхнюю границу массива" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
